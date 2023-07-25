@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Oswald:wght@200&family=Roboto+Mono:wght@300&display=swap');
+
+
+.bar {
+    height: 99px;
+    background-color: #000d0d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+body{
+    background-color: #000d0d;
+}
+
+.right {
+    display: flex;
+}
+
+.right ul {
+    display: flex;
+}
+
+.right ul li {
+    list-style: none;
+    margin: 0px 10px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: #F7EF8A;
+}
+
+.left img{
+    height: 95px;
+    width:100px;
+    padding-left: 40px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #F7EF8A;
+    background-color: #000d0d;
+}
+
+footer{
+    text-align: center;
+    text-decoration: solid;
+}
+
+footer div{
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h3{
+    padding-top: 40px;
+}
+
+footer div input{
+    width: 20vw;
+    padding: 10px 5px;
+    margin: 6px;
+}
+
+#btn{
+    
+    cursor: pointer;
+}
+
+#btn:hover{
+    color:black;
+    background-color: rgb(220, 228, 223);
+}
+
+.container{
+    font-family: 'Libre Franklin', sans-serif;
+    padding-left: 175px;
+    padding-right: 175px;
+    margin:55px;
+    text-align: justify;
+    background: url(C:\Users\disha\Downloads\hd4gw32d.png);
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.container h2{ 
+    color: azure;
+    padding: 20px;
+    text-align: center;
+}
+
+.container h4{
+    text-align: center;
+}
+
+
+
